@@ -14,7 +14,7 @@ PKG_NAME:=luci-app-athena-led
 PKG_VERSION:=2.5.0
 PKG_RELEASE:=1
 
-PKG_MAINTAINER:=unraveloop <https://github.com/unraveloop>
+PKG_MAINTAINER:=Kevin20260215 <https://github.com/Kevin20260215>
 PKG_LICENSE:=Apache-2.0
 PKG_LICENSE_FILES:=LICENSE
 
@@ -25,7 +25,7 @@ define Package/$(PKG_NAME)
 	CATEGORY:=LuCI
 	SUBMENU:=3. Applications
 	TITLE:=LuCI Support for Athena LED (JS UI)
-	URL:=https://github.com/unraveloop/JDC-AX6600-Athena-LED-Controller
+	URL:=https://github.com/Kevin20260215/JDC-AX6600-Athena-LED-Controller
 	DEPENDS:=+athena-led +luci-base
 	PKGARCH:=all
 endef

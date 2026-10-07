@@ -8,12 +8,12 @@ PKG_NAME:=athena-led
 PKG_VERSION:=2.5.0
 PKG_RELEASE:=1
 
-PKG_MAINTAINER:=unraveloop <https://github.com/unraveloop>
+PKG_MAINTAINER:=Kevin20260215 <https://github.com/Kevin20260215>
 PKG_LICENSE:=Apache-2.0
 PKG_LICENSE_FILES:=LICENSE
 
 PKG_SOURCE:=athena-led-aarch64-unknown-linux-musl-v$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=https://github.com/unraveloop/JDC-AX6600-Athena-LED-Controller/releases/download/v$(PKG_VERSION)/
+PKG_SOURCE_URL:=https://github.com/Kevin20260215/JDC-AX6600-Athena-LED-Controller/releases/download/v$(PKG_VERSION)/
 PKG_HASH:=skip
 
 include $(INCLUDE_DIR)/package.mk
@@ -22,7 +22,7 @@ define Package/$(PKG_NAME)
 	SECTION:=utils
 	CATEGORY:=Utilities
 	TITLE:=JDCloud AX6600 (Athena) LED matrix screen daemon
-	URL:=https://github.com/unraveloop/JDC-AX6600-Athena-LED-Controller
+	URL:=https://github.com/Kevin20260215/JDC-AX6600-Athena-LED-Controller
 	DEPENDS:=@(aarch64||arm)
 endef
 
