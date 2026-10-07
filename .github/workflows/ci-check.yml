@@ -18,7 +18,7 @@ jobs:
       # ring 等含 C 代码的依赖需要目标平台 C 编译器
       CC_aarch64_unknown_linux_musl: aarch64-linux-gnu-gcc
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Install cross C compiler
         run: sudo apt-get update && sudo apt-get install -y gcc-aarch64-linux-gnu
